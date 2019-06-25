@@ -1,0 +1,19 @@
+.form {
+  height: 50px;
+  
+}
+
+input, button {
+  height: 40px;
+  width: 200px;
+  border: 1px solid magenta;
+  margin: 10px;
+  font-size: 1em;
+}
+
+button {
+  background-color: limegreen;
+  color: magenta;
+}
+
+
