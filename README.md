@@ -18,6 +18,6 @@ This project is a React App that displays Turing front-end staff with personaliz
 
 ![Staff]('/src/images/staff.png')
 ![Students]('/src/images/students.png')
-![New Student Form]('/src/images/form.png')
+![Form]('/src/images/form.png')
 
 
