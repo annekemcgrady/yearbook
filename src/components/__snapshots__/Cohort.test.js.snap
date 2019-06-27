@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cohort should match the snapshot when person data is passed in correctly 1`] = `
+<Cohort
+  data={
+    Array [
+      Object {
+        "id": 1,
+        "name": "Eric",
+        "photo": "./eric.jpg",
+        "quote": "You miss all the shots you don't take.",
+        "superlative": "Most Likely to Win the PGA",
+      },
+      Object {
+        "id": 2,
+        "name": "Amy",
+        "photo": "./amy.jpg",
+        "quote": "I believe in you, cuties!",
+        "superlative": "Most Likely to Be an Actual Superhero",
+      },
+    ]
+  }
+  title="Staff"
+>
+  <div>
+    <h2>
+      Staff
+    </h2>
+    <div
+      className="card-area"
+    >
+      <Person
+        id={1}
+        key="1"
+        name="Eric"
+        photo="./eric.jpg"
+        quote="You miss all the shots you don't take."
+        superlative="Most Likely to Win the PGA"
+      >
+        <div
+          className="person-card"
+          key="1"
+        >
+          <img
+            alt="portrait"
+            src="./eric.jpg"
+          />
+          <h3
+            className="name"
+          >
+            Eric
+          </h3>
+          <p
+            className="quote"
+          >
+            You miss all the shots you don't take.
+          </p>
+          <p
+            className="superlative"
+          >
+            Most Likely to Win the PGA
+          </p>
+        </div>
+      </Person>
+      <Person
+        id={2}
+        key="2"
+        name="Amy"
+        photo="./amy.jpg"
+        quote="I believe in you, cuties!"
+        superlative="Most Likely to Be an Actual Superhero"
+      >
+        <div
+          className="person-card"
+          key="2"
+        >
+          <img
+            alt="portrait"
+            src="./amy.jpg"
+          />
+          <h3
+            className="name"
+          >
+            Amy
+          </h3>
+          <p
+            className="quote"
+          >
+            I believe in you, cuties!
+          </p>
+          <p
+            className="superlative"
+          >
+            Most Likely to Be an Actual Superhero
+          </p>
+        </div>
+      </Person>
+    </div>
+  </div>
+</Cohort>
+`;
