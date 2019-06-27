@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import Form from './components/Form.js';
+import Form from './Form.js';
 
 describe('Form', ()=> {
   it('should match the snapshot', ()=> {
