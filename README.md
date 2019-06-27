@@ -18,11 +18,11 @@ Run `npm start` to start up your React server.
 
 ### Screenshots
 
-**Staff Page
+** Staff Page
 ![Staff](https://github.com/annekemcgrady/yearbook/blob/master/src/images/staff.png)
-**Students Page
+** Students Page
 ![Students](https://github.com/annekemcgrady/yearbook/blob/master/src/images/students.png)
-**New Student Form
+** New Student Form
 ![Form](https://github.com/annekemcgrady/yearbook/blob/master/src/images/form.png)
 
 
