@@ -14,11 +14,10 @@ class App extends Component {
   }
 
   addNewStudent = student => {
-    this.setState({students: [...this.state.students, student] });
+    this.setState({ students: [...this.state.students, student] });
   }
 
   render() {
-    console.log(this.state)
     return (
       <div className="App">
       <header className="App-header">

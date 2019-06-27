@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should match the snapshot 1`] = `
+<Form
+  addNewStudent={[MockFunction]}
+>
+  <form
+    className="form"
+  >
+    <input
+      name="name"
+      onChange={[Function]}
+      placeholder="Enter name"
+      type="text"
+      value=""
+    />
+    <input
+      name="quote"
+      onChange={[Function]}
+      placeholder="Enter favorite quote"
+      type="text"
+      value=""
+    />
+    <input
+      name="superlative"
+      onChange={[Function]}
+      placeholder="Enter favorite superlative"
+      type="text"
+      value=""
+    />
+    <button
+      className="new-submit"
+      onClick={[Function]}
+    >
+      Create Student
+    </button>
+  </form>
+</Form>
+`;

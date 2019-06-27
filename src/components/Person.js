@@ -1,14 +1,13 @@
 import React from 'react';
 import './Person.css';
 
-const Person = props => {
-  console.log(props.id)
+const Person = ({ id, photo, name, quote, superlative } )=> {
   return (
-    <div key={props.id} className="person-card">
-      <img src={props.photo} alt=''></img>
-      <h3 className="name">{props.name}</h3>
-      <p className="quote">{props.quote}</p>
-      <p className="superlative">{props.superlative}</p>
+    <div key={id} className="person-card">
+      <img src={photo} alt='portrait'></img>
+      <h3 className="name">{name}</h3>
+      <p className="quote">{quote}</p>
+      <p className="superlative">{superlative}</p>
     </div>
   )
 }

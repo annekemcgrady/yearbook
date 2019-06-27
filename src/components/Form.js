@@ -56,7 +56,7 @@ class Form extends Component {
         value={this.state.superlative}
         onChange={this.handleChange}
         /> 
-        <button onClick={this.submitNewStudent}>Create Student</button>
+        <button className='new-submit' onClick={this.submitNewStudent}>Create Student</button>
     </form>
     )
   }
