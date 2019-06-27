@@ -1,5 +1,9 @@
 # Turing Yearbook
 
+### About
+
+This project is a React App that displays Turing front-end staff with personalized information about each staff along with a photo.  It also displays students with an image and a name.  The purpose is an introductory learning project to familiarize ourselves with basic React fundamentals. 
+
 This application was built with `create-react-app`.
 
 ### Set Up
@@ -10,9 +14,6 @@ Run `npm install`
 
 Run `npm start` to start up your React server. 
 
-### About
-
-This project is a React App that displays Turing front-end staff with personalized information about each staff along with a photo.  It also displays students with an image and a name.  The purpose is an introductory learning project to familiarize ourselves with basic React fundamentals. 
 
 ### Screenshots
 
