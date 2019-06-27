@@ -13,7 +13,7 @@ describe('Form', ()=> {
       expect(wrapper).toMatchSnapshot();
   })
 
-  it('should match the snapshot', ()=> {
+  it('should run submitNewStudent on submit button click', ()=> {
     const mockMethod = jest.fn()
     const wrapper = mount(
       <Form 
