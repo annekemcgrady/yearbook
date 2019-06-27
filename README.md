@@ -18,7 +18,7 @@ Run `npm start` to start up your React server.
 
 ### Screenshots
 
-![Staff]('/src/images/staff.png')
+![Staff]('/src/images/staff')
 ![Students]('/src/images/students.png')
 ![Form]('/src/images/form.png')
 
